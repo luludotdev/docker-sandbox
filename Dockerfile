@@ -17,5 +17,3 @@ RUN cd /root && \
   cd .ssh && \
   touch authorized_keys && \
   chmod 600 authorized_keys
-
-CMD ['/bin/bash']
